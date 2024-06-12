@@ -1,0 +1,12 @@
+import React, { memo } from "react";
+import Products from "../../components/products";
+
+const Home = () => {
+  return (
+    <>
+      <Products />
+    </>
+  );
+};
+
+export default memo(Home);
